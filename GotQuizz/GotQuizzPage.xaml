@@ -1,4 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GotQuizz" x:Class="GotQuizz.GotQuizzPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	<Grid Padding="10">
+        <Grid.Margin>
+            <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"/>
+        </Grid.Margin>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.ColumnSpan="2" Text="{Binding CorrectAnswersLabel}" HorizontalOptions="End" />
+        <Label Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding CurrentQuestionLabel}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Button Grid.Row="2" Text="Yes" Command="{Binding Yes}" />
+        <Button Grid.Row="2" Grid.Column="1" Text="No" Command="{Binding No}"/>
+    </Grid>
 </ContentPage>
