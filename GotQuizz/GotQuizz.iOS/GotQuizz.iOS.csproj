@@ -117,7 +117,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GotQuizz.csproj">
+    <ProjectReference Include="..\GotQuizz\GotQuizz.csproj">
       <Project>{1DF002EE-13BC-400A-9F6E-2FC659C96D89}</Project>
       <Name>GotQuizz</Name>
     </ProjectReference>

@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotQuizz", "GotQuizz.csproj", "{1DF002EE-13BC-400A-9F6E-2FC659C96D89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotQuizz", "GotQuizz\GotQuizz.csproj", "{1DF002EE-13BC-400A-9F6E-2FC659C96D89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotQuizz.iOS", "iOS\GotQuizz.iOS.csproj", "{B7DA0C17-044D-4087-A4D5-891E76A71BD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotQuizz.iOS", "GotQuizz.iOS\GotQuizz.iOS.csproj", "{B7DA0C17-044D-4087-A4D5-891E76A71BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotQuizz.Droid", "Droid\GotQuizz.Droid.csproj", "{476018EF-00E7-4096-9159-ABDEB971850C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotQuizz.Droid", "GotQuizz.Droid\GotQuizz.Droid.csproj", "{476018EF-00E7-4096-9159-ABDEB971850C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
